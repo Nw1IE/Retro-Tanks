@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro Tanks</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/modules/config.js" defer></script>
+    <script src="./js/modules/tank.js" defer></script>
+    <script src="./js/modules/game.js" defer></script>
+    <script src="./js/script.js" defer></script>
+</head>
+<body>
+
+    <div class="crt-overlay"></div>
+
+    <div id="ui-panel">
+        <div class="score-box p1"><div>Игрок 1</div><div id="score1">00</div></div>
+        <div class="score-box">
+            <button class="reset-btn" onclick="location.reload()">Главная</button>
+        </div>
+        <div class="score-box p2"><div>Игрок 2</div><div id="score2">00</div></div>
+    </div>
+
+    <div id="game-container">
+        <div id="menu-overlay">
+            <h1>Выбор карты</h1>
+            <button class="menu-btn" onclick="bootGame(0)">Эхо Прошлого</button>
+            <button class="menu-btn" onclick="bootGame(1)">Коридор Возмездия</button>
+            <button class="menu-btn" onclick="bootGame(2)">Стальной Перекресток</button>
+        </div>
+        <div id="game-board"></div>
+        <div id="victory-screen">
+            <h1 id="victory-msg">Победа!</h1>
+            <button class="menu-btn" onclick="location.reload()">Играть снова</button>
+        </div>
+    </div>
+</body>
+</html>

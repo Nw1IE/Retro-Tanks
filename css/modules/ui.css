@@ -1,0 +1,86 @@
+#ui-panel 
+{
+    background: #222; 
+    border: 4px solid #444; 
+    padding: 10px 40px;
+    display: flex; 
+    gap: 60px; 
+    margin-bottom: 10px; 
+    align-items: center;
+    box-shadow: 0 0 20px #000;
+}
+
+.score-box 
+{ 
+    text-align: center; 
+}
+
+.p1 
+{ 
+    color: var(--p1-color); text-shadow: 0 0 10px var(--p1-color); 
+}
+
+.p2 
+{
+    color: var(--p2-color); text-shadow: 0 0 10px var(--p2-color); 
+}
+
+#score1, #score2 
+{ 
+    font-size: 32px; font-weight: bold; 
+}
+
+#menu-overlay, #victory-screen 
+{
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.95); 
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    z-index: 400;
+}
+
+#victory-screen 
+{ 
+    background: rgba(0,0,0,0.9);
+    display: none; 
+    z-index: 300; 
+}
+
+#menu-overlay h1 
+{
+    color: #f7d33b; 
+    margin-bottom: 40px;
+    letter-spacing: 4px;
+    text-shadow: 0 0 15px rgba(247, 211, 59, 0.5);
+}
+
+.menu-btn 
+{
+    background: #a00; color: #fff; border: 4px solid #600; 
+    padding: 15px 30px; cursor: pointer; font-family: inherit; 
+    font-weight: bold; font-size: 18px;
+    margin: 12px 0; width: 350px; 
+    transition: transform 0.1s, background 0.2s;
+}
+
+.menu-btn:hover 
+{
+    background: #c00;
+    transform: scale(1.05);
+}
+
+.reset-btn 
+{
+    background: #444; 
+    color: #fff; 
+    border: 2px solid #666; 
+    padding: 5px 15px; 
+    cursor: pointer; 
+    font-family: inherit;
+}

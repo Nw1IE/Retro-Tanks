@@ -1,0 +1,66 @@
+#game-container 
+{ 
+    position: relative; 
+    border: 8px solid #333; 
+}
+
+#game-board 
+{ 
+    position: relative; 
+    width: 1000px; 
+    height: 600px; 
+    background-color: #000; 
+    overflow: hidden; 
+}
+
+.tank 
+{ 
+    position: absolute; 
+    width: 34px; 
+    height: 34px; 
+    z-index: 50; 
+}
+
+.wall 
+{ 
+    position: absolute;
+    width: 40px;
+    height: 40px; 
+    box-sizing: border-box; 
+}
+
+.brick 
+{
+    background: #832; 
+    border: 2px solid #521; 
+}
+
+.concrete 
+{ 
+    background: #555; 
+    border: 4px inset #777; 
+}
+
+.bush 
+{
+    background: #050; 
+    opacity: 0.7; z-index: 60; 
+} 
+
+.water 
+{ 
+    background: #0044aa; 
+    border: 2px solid #002266;
+    z-index: 5; 
+}
+
+.bullet 
+{ 
+    position: absolute; 
+    width: 6px; 
+    height: 6px; 
+    background: #fff; 
+    border-radius: 50%; 
+    box-shadow: 0 0 8px #fff; 
+    z-index: 100; 
+}
