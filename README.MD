@@ -55,3 +55,5 @@ Retro-Tanks/
 
 # Вид игры от игроков
 <img src='img/UI.png' alt="player" width="500" height="300">
+
+---
