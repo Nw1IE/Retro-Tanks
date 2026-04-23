@@ -49,9 +49,9 @@ Retro-Tanks/
 
 ## UI
 # Главное меню
-<img src='Главное меню.png' alt="player" width="500" height="300">
+<img src='img/Главное меню.png' alt="player" width="500" height="300">
 
 ---
 
 # Вид игры от игроков
-<img src='UI.png' alt="player" width="500" height="300">
+<img src='img/UI.png' alt="player" width="500" height="300">
