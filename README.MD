@@ -44,3 +44,9 @@ Retro-Tanks/
         └── game.js     # Логика выстрелов и сброса позиций
 
 ```
+
+---
+
+<img src='img/UI.png' alt="player" width="500" height="300">
+<img src='src/assets/player.png' alt="player" width="500" height="300">
+
