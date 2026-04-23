@@ -1,9 +1,11 @@
-const gameState = {
+const gameState = 
+{
     p1: { x: 40, y: 40, deg: 90, color: '#00ff00', bullets: [], size: 34 },
     p2: { x: 920, y: 520, deg: 270, color: '#ffff00', bullets: [], size: 34 }
 };
 
-const maps = [
+const maps = 
+[
     [
         {x: 480, y: 240, w: 40, h: 120, t: 'concrete'}, {x: 400, y: 280, w: 200, h: 40, t: 'concrete'},
         {x: 200, y: 240, w: 120, h: 120, t: 'water'}, {x: 680, y: 240, w: 120, h: 120, t: 'water'},
