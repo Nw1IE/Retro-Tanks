@@ -47,7 +47,7 @@ Retro-Tanks/
 
 ---
 
-## UI
+### UI
 # Главное меню
 <p align="center">
     <img src='img/Главное меню.png' alt="player" width="500" height="300">
